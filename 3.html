@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Архитектура Беларуси</title>
+    
+    <style>         body {
+        background-image: url('пик.jpg');
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .text {
+        flex: 1;
+        margin-right: 20px;
+        text-align: left;
+    }
+    .text h2 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+    .text p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .button-container {
+        flex-shrink: 0;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #3498db;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    button:hover {
+        background-color: #2980b9;
+    }
+        body {
+            background-image: url('пик.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 15px;
+            background: #f5f5f5;
+        }
+        .image {
+            width: 45%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .text {
+            width: 55%;
+            text-align: left;
+        }
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-button a {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .back-button a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div><div id="nature" class="section">
+            <div class="text">
+            <h1>Природа Беларуси</h1>
+            </div>
+            <div class="button-container">
+                <a href="1.html"><button>Назад</button></a>
+            </div>
+        </div>
+        <div id="bialowieza-forest" class="section">
+            <img src="пуща.jpg" alt="Беловежская пуща" class="image">
+            <div class="text">
+                <h2>Беловежская пуща</h2>
+                <p>Беловежская пуща - один из самых известных природных заповедников Беларуси, знаменитый своими древними лесами и обитающими там зубрами.</p>
+            </div>
+        </div>
+
+        <div id="braslaw-lakes" class="section">
+            <img src="озера.jpg" alt="Браславские озёра" class="image">
+            <div class="text">
+                <h2>Браславские озёра</h2>
+                <p>Браславские озёра являются живописным местом с кристально чистой водой, живописными островами и редкой флорой и фауной.</p>
+            </div>
+        </div>
+
+        <div id="narach-lake" class="section">
+            <img src="озеро.jpg" alt="Озеро Нарочь" class="image">
+            <div class="text">
+                <h2>Озеро Нарочь</h2>
+                <p>Озеро Нарочь - крупнейшее озеро Беларуси, популярное среди туристов благодаря своим чистым водам и красивым окрестностям.</p>
+            </div>
+        </div>
+
+        <div id="belovezhskaya-pushcha" class="section">
+            <img src="зимо.jpg" alt="Беловежская пуща зимой" class="image">
+            <div class="text">
+                <h2>Беловежская пуща зимой</h2>
+                <p>В зимнее время Беловежская пуща обретает особенную красоту, превращаясь в сказочный лес с заснеженными деревьями и живописными ландшафтами.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

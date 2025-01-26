@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Архитектура Беларуси</title>
+    
+    <style>         body {
+        background-image: url('пик.jpg');
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .text {
+        flex: 1;
+        margin-right: 20px;
+        text-align: left;
+    }
+    .text h2 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+    .text p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .button-container {
+        flex-shrink: 0;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #3498db;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    button:hover {
+        background-color: #2980b9;
+    }
+        body {
+            background-image: url('пик.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 15px;
+            background: #f5f5f5;
+        }
+        .image {
+            width: 45%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .text {
+            width: 55%;
+            text-align: left;
+        }
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-button a {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .back-button a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><div id="nature" class="section">
+            <div class="text">
+
+                <h1>Традиции Беларуси</h1>
+            </div>
+            <div class="button-container">
+                <a href="1.html"><button>Назад</button></a>
+            </div>
+        </div>
+        <div id="grand-duchy" class="section">
+            <img src="вкл.jpg" alt="Великое княжество Литовское" class="image">
+            <div class="text">
+                <h2>Великое княжество Литовское</h2>
+                <p>Великое княжество Литовское оставило значительное наследие в истории Беларуси. Эта могущественная держава существовала с XIII по XVIII века и влияла на развитие региона.</p>
+            </div>
+        </div>
+
+        <div id="battle-of-grunwald" class="section">
+            <img src="битва.jpg" alt="Битва под Грюнвальдом" class="image">
+            <div class="text">
+                <h2>Битва под Грюнвальдом</h2>
+                <p>Битва под Грюнвальдом 1410 года - одно из крупнейших сражений средневековья, в котором войска Великого княжества Литовского и Польши разгромили Тевтонский Орден.</p>
+            </div>
+        </div>
+
+        <div id="radziwill-family" class="section">
+            <img src="рад.jpg" alt="Радзивиллы" class="image">
+            <div class="text">
+                <h2>Радзивиллы</h2>
+                <p>Род Радзивиллов был одной из самых влиятельных аристократических семей в Беларуси, внесших большой вклад в политическую и культурную жизнь страны.</p>
+            </div>
+        </div>
+
+        <div id="independence" class="section">
+            <img src="нез.jpg" alt="Независимость Беларуси" class="image">
+            <div class="text">
+                <h2>Независимость Беларуси</h2>
+                <p>Беларусь стала независимой в 1991 году после распада Советского Союза, что стало важным этапом в истории страны.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

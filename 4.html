@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Архитектура Беларуси</title>
+    
+    <style>         body {
+        background-image: url('пик.jpg');
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .text {
+        flex: 1;
+        margin-right: 20px;
+        text-align: left;
+    }
+    .text h2 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+    .text p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .button-container {
+        flex-shrink: 0;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #3498db;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    button:hover {
+        background-color: #2980b9;
+    }
+        body {
+            background-image: url('пик.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 15px;
+            background: #f5f5f5;
+        }
+        .image {
+            width: 45%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .text {
+            width: 55%;
+            text-align: left;
+        }
+        .back-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-button a {
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .back-button a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div><div id="nature" class="section">
+            <div class="text">
+
+                <h1>Традиции Беларуси</h1>
+            </div>
+            <div class="button-container">
+                <a href="1.html"><button>Назад</button></a>
+            </div>
+        </div>
+        <div id="kupala-festival" class="section">
+            <img src="купалье.jpg" alt="Купалье" class="image">
+            <div class="text">
+                <h2>Купалье</h2>
+                <p>Купалье - один из самых известных белорусских праздников, отмечаемый в ночь на Ивана Купалу. С праздником связаны многочисленные обычаи и обряды.</p>
+            </div>
+        </div>
+
+        <div id="dudars-kola" class="section">
+            <img src="кале.jpg" alt="Дударская кале" class="image">
+            <div class="text">
+                <h2>Дударская кале</h2>
+                <p>Дударская кале - это музыкальный фестиваль, в ходе которого выступают мастера игры на дуде и других народных инструментах.</p>
+            </div>
+        </div>
+
+        <div id="grandfather-frost" class="section">
+            <img src="дед.jpg" alt="Дед Мороз" class="image">
+            <div class="text">
+                <h2>Дед Мороз</h2>
+                <p>Белорусский Дед Мороз живет в своей резиденции в Беловежской пуще, где ежегодно проводятся новогодние представления и праздники для детей и взрослых.</p>
+            </div>
+        </div>
+
+        <div id="folk-costumes" class="section">
+            <img src="костюмы.jpg" alt="Национальные костюмы" class="image">
+            <div class="text">
+                <h2>Национальные костюмы</h2>
+                <p>Белорусские национальные костюмы - важная часть культурного наследия страны. Каждый регион имеет свои уникальные элементы и особенности в одежде.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
